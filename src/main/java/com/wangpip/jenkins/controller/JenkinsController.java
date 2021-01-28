@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsController {
 
+    private int a;
+
     @GetMapping("/index")
     public Object index(){
         return "hello jenkins";
