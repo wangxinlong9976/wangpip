@@ -22,6 +22,6 @@ public class JenkinsController {
 
     @GetMapping("/index")
     public Object index(){
-        return "hello jenkins";
+        return "hello jenkins 123456";
     }
 }
