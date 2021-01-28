@@ -18,6 +18,8 @@ public class JenkinsController {
 
     private int a;
 
+    private int c;
+
     @GetMapping("/index")
     public Object index(){
         return "hello jenkins";
