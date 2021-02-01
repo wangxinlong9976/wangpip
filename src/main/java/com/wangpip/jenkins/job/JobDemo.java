@@ -13,9 +13,9 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
  * @version v1.0
  * @since JDK 1.8
  */
-public class JobDemo extends QuartzJobBean {
-    @Override
-    protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        System.out.println(jobExecutionContext.getJobDetail().getKey());
-    }
-}
+//public class JobDemo extends QuartzJobBean {
+//    @Override
+//    protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+//        System.out.println(jobExecutionContext.getJobDetail().getKey());
+//    }
+//}
