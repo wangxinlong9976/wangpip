@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class QuartzConfig {
     @Bean
     public JobDetail myJobDetail(){
+        //
         JobDetail jobDetail = JobBuilder.newJob(JobDemo.class)
                 .withIdentity("myJob1","myJobGroup1")
                 //JobDataMap可以给任务execute传递参数
